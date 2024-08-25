@@ -1,8 +1,12 @@
 {
-  "name": "context",
+  "name": "@lubaiba/contextv3",
+  "private":false,
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -35,9 +39,9 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "A react component library",
   "keywords": [],
-  "author": "",
+  "author": "lubaiba",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
@@ -58,5 +62,13 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lubaiba/context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lubaiba/context/issues"
+  },
+  "homepage": "https://github.com/lubaiba/context#readme"
 }

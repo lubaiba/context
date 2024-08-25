@@ -6,6 +6,9 @@
 .pnp.js
 /dist
 
+# Exclude local configuration
+/.babelrc
+
 # testing
 /coverage
 
